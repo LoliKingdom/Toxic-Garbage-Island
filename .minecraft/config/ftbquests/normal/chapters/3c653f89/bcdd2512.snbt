@@ -1,0 +1,44 @@
+{
+	title: "Temporary Settlement",
+	icon: "tfc:firepit",
+	x: 1.5d,
+	y: 0.0d,
+	description: "Let's find a place and get cosy as the night falls.",
+	text: [
+		"YOU: Good idea, now that we have our thatches and logs. Should be plenty to make a shelter?",
+		"",
+		"ALICE: A Firepit would be nice too, it gets dark out here... Master, using your firestarter on a log, 3 sticks and 3 straws should be enough to light up a firepit.",
+		"",
+		"YOU: Thanks Alice, I don't know what I'd do without you."
+	],
+	dependencies: [
+		"6505f7ab",
+		"ac9ac594"
+	],
+	tasks: [{
+		uid: "c972e223",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tfc:firestarter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b65f7db6",
+		type: "observation",
+		title: "Voila!",
+		icon: "tfc:firepit",
+		match_type: "block_id",
+		match: "tfc:firepit",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "5902f083",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

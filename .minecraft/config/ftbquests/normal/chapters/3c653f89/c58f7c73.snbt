@@ -1,0 +1,26 @@
+{
+	title: "Clay",
+	x: -2.5d,
+	y: 4.0d,
+	shape: "square",
+	description: "Master. It may be a good idea for us to gather clay.",
+	text: [
+		"YOU: Now that I think of it, a lot of the modern items weren't really made from clay. But clay really was a huge deal in the primitive age,  turns out this lump of mud is quite useful!",
+		"",
+		"ALICE: As expected of my insensitive Master. At least you didn't say it was overpowered or something.",
+		"",
+		"YOU: What? Who the fuck would say that Alice haha!"
+	],
+	dependencies: [
+		"4531c430"
+	],
+	tasks: [{
+		uid: "9dcfa71c",
+		type: "item",
+		title: "64x Clay",
+		items: [{
+			item: "minecraft:clay_ball"
+		}],
+		count: 64L
+	}]
+}

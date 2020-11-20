@@ -1,0 +1,177 @@
+{
+  "__comments": [
+    "WARNING: All changes should be made to the file with the name Custom",
+    "in the title. Changes made to the Generated file will be overwritten.",
+    "",
+    "This file defines ore compatibility.",
+    "",
+    "Slag content will be generated for each oredict entry.",
+    "",
+    "The first valid key in each langKey list will be chosen; reorder keys",
+    "to change which key is selected.",
+    "",
+    "The first valid nugget in each output list will be chosen; reorder nuggets",
+    "to change which nugget is selected.",
+    "",
+    "Slag color is a hex color code without the #",
+    "",
+    "Lang keys are in the format: (domain):(key)",
+    "",
+    "Output item strings are in the format: (domain):(path):(meta)"
+  ],
+  "oredict": {
+    "oreAluminum": {
+      "slagColor": "e2e2e3",
+      "langKey": [
+        "dcs_climate:item.dcs_oreitem_red_2",
+        "dcs_climate:tile.dcs_ore2_stone_10",
+        "immersiveengineering:tile.immersiveengineering.ore.aluminum"
+      ],
+      "output": [
+        "immersiveengineering:metal:21",
+        "magneticraft:nuggets:7",
+        "tfc:metal/nugget/aluminium:0"
+      ]
+    },
+    "oreCobalt": {
+      "slagColor": "1c5bc1",
+      "langKey": [
+        "magneticraft:tile.magneticraft.ores_cobalt"
+      ],
+      "output": [
+        "magneticraft:nuggets:4",
+        "tfc:metal/nugget/cobalt:0"
+      ]
+    },
+    "oreCopper": {
+      "slagColor": "ffaa1c",
+      "langKey": [
+        "dcs_climate:item.dcs_oreitem_red_1",
+        "dcs_climate:tile.dcs_ore_stone_6",
+        "forestry:tile.for.resources.copper",
+        "ic2:tile.blockOreCopper",
+        "immersiveengineering:tile.immersiveengineering.ore.copper",
+        "magneticraft:tile.magneticraft.ores_copper",
+        "nuclearcraft:tile.nuclearcraft.ore.copper"
+      ],
+      "output": [
+        "grimoireofgaia:shard:4",
+        "immersiveengineering:metal:20",
+        "magneticraft:nuggets:2",
+        "tfc:metal/nugget/copper:0",
+        "thaumcraft:nugget:1"
+      ]
+    },
+    "oreGold": {
+      "slagColor": "fcee4b",
+      "langKey": [
+        "dcs_climate:item.dcs_oreitem_white_2",
+        "dcs_climate:tile.dcs_ore_stone_11",
+        "minecraft:tile.oreGold"
+      ],
+      "output": [
+        "grimoireofgaia:shard:1",
+        "minecraft:gold_nugget:0",
+        "tfc:metal/nugget/gold:0"
+      ]
+    },
+    "oreIron": {
+      "slagColor": "d8af93",
+      "langKey": [
+        "dcs_climate:item.dcs_oreitem_white_1",
+        "dcs_climate:tile.dcs_ore_stone_1",
+        "dcs_climate:tile.dcs_ore_stone_4",
+        "minecraft:tile.oreIron"
+      ],
+      "output": [
+        "grimoireofgaia:shard:0",
+        "immersiveengineering:metal:29",
+        "minecraft:iron_nugget:0",
+        "tfc:metal/nugget/wrought_iron:0",
+        "thaumcraft:nugget:0"
+      ]
+    },
+    "oreLead": {
+      "slagColor": "95afee",
+      "langKey": [
+        "dcs_climate:item.dcs_oreitem_blue_2",
+        "immersiveengineering:tile.immersiveengineering.ore.lead",
+        "magneticraft:tile.magneticraft.ores_lead",
+        "nuclearcraft:tile.nuclearcraft.ore.lead"
+      ],
+      "output": [
+        "immersiveengineering:metal:22",
+        "magneticraft:nuggets:3",
+        "tfc:metal/nugget/lead:0",
+        "thaumcraft:nugget:4"
+      ]
+    },
+    "oreNickel": {
+      "slagColor": "e4e5d8",
+      "langKey": [
+        "dcs_climate:item.dcs_oreitem_green_2",
+        "dcs_climate:tile.dcs_ore2_stone_8",
+        "dcs_climate:tile.dcs_ore_stone_7",
+        "immersiveengineering:tile.immersiveengineering.ore.nickel"
+      ],
+      "output": [
+        "immersiveengineering:metal:24",
+        "magneticraft:nuggets:10",
+        "tfc:metal/nugget/nickel:0"
+      ]
+    },
+    "orePlatinum": {
+      "slagColor": "55f3ff",
+      "langKey": [
+        "gtclassic:tile.gtclassic.oreSheldonite"
+      ],
+      "output": [
+        "tfc:metal/nugget/platinum:0"
+      ]
+    },
+    "oreSilver": {
+      "slagColor": "e8f6fd",
+      "langKey": [
+        "dcs_climate:item.dcs_oreitem_black_2",
+        "dcs_climate:tile.dcs_ore_stone_12",
+        "ic2:tile.blockOreSilver",
+        "immersiveengineering:tile.immersiveengineering.ore.silver",
+        "magneticraft:tile.magneticraft.ores_lead"
+      ],
+      "output": [
+        "grimoireofgaia:shard:5",
+        "immersiveengineering:metal:23",
+        "magneticraft:nuggets:12",
+        "tfc:metal/nugget/silver:0",
+        "thaumcraft:nugget:3"
+      ]
+    },
+    "oreTin": {
+      "slagColor": "c3e9ff",
+      "langKey": [
+        "dcs_climate:item.dcs_oreitem_green_1",
+        "dcs_climate:tile.dcs_ore2_stone_4",
+        "forestry:tile.for.resources.tin",
+        "ic2:tile.blockOreTin",
+        "nuclearcraft:tile.nuclearcraft.ore.tin"
+      ],
+      "output": [
+        "magneticraft:nuggets:13",
+        "tfc:metal/nugget/tin:0",
+        "thaumcraft:nugget:2"
+      ]
+    },
+    "oreUranium": {
+      "slagColor": "5c734b",
+      "langKey": [
+        "ic2:tile.blockOreUran",
+        "immersiveengineering:tile.immersiveengineering.ore.uranium",
+        "nuclearcraft:tile.nuclearcraft.ore.uranium"
+      ],
+      "output": [
+        "immersiveengineering:metal:25",
+        "tfc:metal/nugget/uranium:0"
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+	title: "Straw",
+	x: -2.5d,
+	y: -4.0d,
+	shape: "square",
+	description: "Master. We can use straws to thatch a roof over our heads!",
+	text: [
+		"YOU: Grand idea Alice!",
+		"",
+		"ALICE: *whisper: As long as I get Master's praise...*",
+		"",
+		"YOU: Did you say something Alice? Fix your microphone, I can't hear you sometimes out here.",
+		"",
+		"ALICE: Nothing. Just an audio bug..."
+	],
+	dependencies: [
+		"9c005ade"
+	],
+	tasks: [{
+		uid: "2e3c5688",
+		type: "item",
+		items: [{
+			item: "tfc:straw"
+		}],
+		count: 64L
+	}]
+}

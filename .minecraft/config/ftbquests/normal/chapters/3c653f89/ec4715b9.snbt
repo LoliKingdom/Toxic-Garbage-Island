@@ -1,0 +1,19 @@
+{
+	title: "Let's Hunt!",
+	x: 5.5d,
+	y: -4.0d,
+	description: "Sleeping with my Master!",
+	text: [
+		"YOU: Could you not make it sound that creepy...?"
+	],
+	dependencies: [
+		"9f5db046"
+	],
+	tasks: [{
+		uid: "c77fb7bb",
+		type: "item",
+		items: [{
+			item: "tfc:hide/raw/large"
+		}]
+	}]
+}

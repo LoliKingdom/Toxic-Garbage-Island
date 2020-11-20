@@ -1,0 +1,36 @@
+{
+	title: "Dedicated Weapon",
+	x: 3.5d,
+	y: -4.0d,
+	description: "Alice: You won't be fighting any Demon Lords yet, but-",
+	text: [
+		"YOU: Alice. Don't even..."
+	],
+	dependencies: [
+		"3d78f0ad"
+	],
+	tasks: [{
+		uid: "7db27614",
+		type: "item",
+		title: "Rock Javelin",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "javelinStone",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "1d785296",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tfc:stone/javelin/igneous_intrusive"
+		}
+	}]
+}

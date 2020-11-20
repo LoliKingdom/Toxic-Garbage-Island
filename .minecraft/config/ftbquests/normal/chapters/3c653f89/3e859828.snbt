@@ -1,0 +1,34 @@
+{
+	title: "???",
+	x: -5.0d,
+	y: 0.0d,
+	description: "I hear a familiar voice... coming from above me...",
+	text: [
+		"???: Master...",
+		"",
+		"YOU: Hey... is that Alice? ALICE?? Is that you?",
+		"",
+		"ALICE: Master? Master!",
+		"",
+		"YOU: Thank God! I thought I was gonna be all by my lonesome! I can't even remember what happened, it felt like I was... sleeping for... so long...",
+		"",
+		"ALICE: I missed you Master! I was hit by multiple lightnings all of a sudden and my lightning rods caught hold of it and here I am all charged up!",
+		"",
+		"YOU: Wait... you're on my head like you were always were... right?",
+		"",
+		"ALICE: Yup, anything wrong?",
+		"",
+		"*Shudders*",
+		"",
+		"*Multiple lightnings... on my head...*"
+	],
+	dependencies: [
+		"c49435c2",
+		"5b90bfeb"
+	],
+	tasks: [{
+		uid: "51478663",
+		type: "checkmark",
+		disable_toast: true
+	}]
+}

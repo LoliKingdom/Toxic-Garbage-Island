@@ -1,0 +1,13 @@
+{
+	title: "Chapter 2: Discussion",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "botania:cosmetic",
+		Damage: 16s
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,13 @@
+{
+	title: "Act 1: The Beginning of the End",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "tfc:stone/axe/metamorphic"
+	},
+	disable_toast: true,
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

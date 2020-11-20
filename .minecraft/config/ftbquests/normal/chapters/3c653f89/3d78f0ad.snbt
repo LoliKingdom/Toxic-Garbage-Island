@@ -1,0 +1,34 @@
+{
+	title: "Alice: Light Up My World!",
+	x: 3.5d,
+	y: 0.0d,
+	description: "You: I see Alice, you're still in your phase...",
+	text: [
+		""
+	],
+	dependencies: [
+		"bcdd2512"
+	],
+	tasks: [{
+		uid: "11840c9f",
+		type: "item",
+		items: [{
+			item: "minecraft:torch"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "a07c6d5d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"tfc:item_size": {
+					heat: 0.0f,
+					ticks: -1L
+				}
+			},
+			id: "minecraft:stick"
+		},
+		count: 8
+	}]
+}

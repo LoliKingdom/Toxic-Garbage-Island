@@ -1,0 +1,12 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"3e859828"
+	],
+	tasks: [{
+		uid: "300ec41c",
+		type: "checkmark",
+		disable_toast: true
+	}]
+}

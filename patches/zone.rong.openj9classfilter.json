@@ -1,0 +1,19 @@
+{
+    "formatVersion": 1,
+    "name": "OpenJ9ClassExcluder",
+    "uid": "zone.rong.openj9classfilter",
+    "version": "1.0",
+	"+libraries": [
+    {
+      "MMC-hint": "local",
+      "name": "zone.rong.openj9classfilter:openj9_class_filter:1.0"
+    }
+	],
+	"mainClass": "net.minecraft.launchwrapper.Launch",
+	"requires": [
+    {
+      "equals": "1.12.2",
+      "uid": "net.minecraft"
+    }
+	]
+}

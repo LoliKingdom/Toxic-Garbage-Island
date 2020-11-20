@@ -1,0 +1,39 @@
+{
+	title: "Starting Fresh",
+	x: -2.5d,
+	y: 0.0d,
+	description: "I guess I should make an axe...",
+	text: [
+		"ALICE: These axes do not last very long Master. These are about 3000x less effective than the Red Matter Axes Master wielded 21 years ago.",
+		"",
+		"YOU: That's an over exaggeration, I hope. Also stop the 'Master', it's been a while and I'm not used to it yet."
+	],
+	dependencies: [
+		"3e859828"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fe90d4da",
+		type: "item",
+		title: "Rock Axe",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "axeStone",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "d04822ff",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tfc:stone/axe/igneous_intrusive"
+		}
+	}]
+}

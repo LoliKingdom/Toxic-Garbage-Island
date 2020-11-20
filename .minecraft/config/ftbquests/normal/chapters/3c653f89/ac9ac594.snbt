@@ -1,0 +1,21 @@
+{
+	title: "Thatch It Up!",
+	x: -0.5d,
+	y: -2.0d,
+	shape: "square",
+	description: "We should be able to thatch using 4 straws a piece.",
+	text: [
+		""
+	],
+	dependencies: [
+		"3e1a67fa"
+	],
+	tasks: [{
+		uid: "3d93ea7c",
+		type: "item",
+		items: [{
+			item: "tfc:thatch"
+		}],
+		count: 16L
+	}]
+}

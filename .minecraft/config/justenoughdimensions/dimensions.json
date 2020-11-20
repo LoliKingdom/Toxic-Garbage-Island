@@ -1,0 +1,21 @@
+{
+  "config_version": {
+    "id": "__default",
+    "version": 0
+  },
+  "dimensions": [
+    {
+      "dim": 999,
+      "dimensiontype": {
+        "id": 999,
+        "name": "otherworld",
+        "suffix": "_isekai",
+        "keeploaded": true,
+        "worldprovider": "WorldProviderSurfaceJED"
+      },
+	  "worldinfo_onetime": {
+		"generatorName": "default"
+	  }
+    }
+  ]
+}

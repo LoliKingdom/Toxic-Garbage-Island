@@ -1,0 +1,25 @@
+{
+	icon: {
+		id: "thermalexpansion:florb",
+		tag: {
+			Fluid: "fresh_water"
+		}
+	},
+	x: 2.5d,
+	y: 2.0d,
+	dependencies: [
+		"bcdd2512"
+	],
+	tasks: [{
+		uid: "e2109935",
+		type: "gamestage",
+		title: "Take a Fresh Sip of Water",
+		icon: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:water"
+			}
+		},
+		stage: "tfc:drank_water"
+	}]
+}

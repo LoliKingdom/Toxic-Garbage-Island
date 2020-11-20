@@ -1,0 +1,26 @@
+{
+	title: "Off the Ground - Rocks",
+	x: -7.0d,
+	y: -2.0d,
+	text: [
+		"Why's everything so fucking hard to break?"
+	],
+	dependencies: [
+		"369f24bd"
+	],
+	tasks: [{
+		uid: "27eddf1b",
+		type: "item",
+		title: "16x Rocks",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "rock",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 16L
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	title: "Shovel",
+	x: -2.5d,
+	y: 2.0d,
+	shape: "rsquare",
+	description: "Shovel next. MASTER!",
+	text: [
+		"YOU: Woah! Did you really have to shout!?",
+		"",
+		"ALICE: Diggy diggy hole... Im'a digging a hole...",
+		"",
+		"YOU: That's your way of getting my attention?..."
+	],
+	dependencies: [
+		"bad88f43"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0d4deeb0",
+		type: "item",
+		title: "Rock Shovel",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "shovelStone",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "e1496c05",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tfc:stone/shovel/igneous_intrusive"
+		}
+	}]
+}

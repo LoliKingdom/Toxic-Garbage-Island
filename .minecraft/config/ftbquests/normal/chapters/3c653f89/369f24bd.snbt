@@ -1,0 +1,20 @@
+{
+	title: "Take a Good Look",
+	x: -9.0d,
+	y: 0.0d,
+	shape: "gear",
+	description: "Yeah, this is the situation we're in.",
+	text: [
+		"How the hell did that 'thing' get so uncontrollable to even destroy our dimension?",
+		"",
+		"I wonder if that 'thing' is still around..."
+	],
+	tasks: [{
+		uid: "68fdc2cd",
+		type: "observation",
+		title: "Look Around",
+		match_type: "block_id",
+		match: "tfc:placed_item_flat",
+		timer: 0L
+	}]
+}

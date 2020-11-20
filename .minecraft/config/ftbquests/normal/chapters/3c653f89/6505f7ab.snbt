@@ -1,0 +1,37 @@
+{
+	title: "Getting Wood",
+	x: -0.5d,
+	y: 0.0d,
+	description: "Master, please use the axe to gather some wood.",
+	text: [
+		"YOU: You were right...",
+		"",
+		"ALICE: I never exaggerate. I don't perceive emotion. I'm AI after all, the one and only Artificial Labile Intelligent Cybernated Existence!",
+		"",
+		"YOU: Alice, I'm pretty sure they tried mass producing you back in the day..."
+	],
+	dependencies: [
+		"bad88f43"
+	],
+	tasks: [{
+		uid: "6f51f80c",
+		type: "item",
+		title: "4x Wooden Logs",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "b2ec6a8f",
+		type: "item",
+		item: "tfc:wood/log/kapok",
+		count: 16
+	}]
+}

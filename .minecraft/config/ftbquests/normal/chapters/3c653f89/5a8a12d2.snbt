@@ -1,0 +1,54 @@
+{
+	title: "Vessel for Water",
+	x: 3.5d,
+	y: 4.0d,
+	description: "Master, let's store some water!",
+	text: [
+		"YOU: I wonder how much this thing fills..."
+	],
+	dependencies: [
+		"c58f7c73",
+		"a490881c"
+	],
+	tasks: [{
+		uid: "ad696643",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					heat: 0.0f,
+					ticks: -1L
+				}
+			},
+			id: "tfc:ceramics/unfired/jug"
+		}]
+	},
+	{
+		uid: "3b8b4957",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tfc:ceramics/fired/jug"
+		}],
+		consume_items: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dc05fc73",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tfc:ceramics/fired/jug",
+			tag: {
+				Fluid: {
+					FluidName: "fresh_water",
+					Amount: 100
+				}
+			}
+		}
+	}]
+}

@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<worldGeneration version="3"
+				 xmlns="http://warpdrive.lemadec.org"
+				 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				 xsi:schemaLocation="http://warpdrive.lemadec.org WarpDrive.xsd"
+				 mods="undergroundbiomes">
+
+	<for variable="type" in="igneous,metamorphic,sedimentary">
+		<for variable="metadata" from="0" to="7">
+			<!-- common overworld ores with various base blocks -->
+			<fillerSet group="overworld_common" name="%type%@%metadata%.normal" weight="15">
+				<import group="undergroundBiomes_commonOres" name="%type%@%metadata%" />
+				<filler block="undergroundbiomes:%type%_stone" metadata="%metadata%" weight="100" />
+			</fillerSet>
+
+			<fillerSet group="undergroundBiomes_commonOres" name="%type%@%metadata%">
+				<filler block="undergroundbiomes:%type%_stone_coal_ore" metadata="%metadata%" ratio=".06" />
+				<filler block="undergroundbiomes:%type%_stone_iron_ore" metadata="%metadata%" ratio=".04" />
+				<filler block="undergroundbiomes:%type%_stone_redstone_ore" metadata="%metadata%" ratio=".008" mods="!thermalfoundation" />
+				<filler block="undergroundbiomes:%type%_stone_redstone_ore" metadata="%metadata%" ratio=".002" mods="thermalfoundation" />
+				<filler block="undergroundbiomes:%type%_stone_tile.thermalfoundation.ore.redstone.name" metadata="%metadata%" ratio=".006" mods="thermalfoundation" /><!-- Destabilized redstone -->
+				
+				<filler block="undergroundbiomes:%type%_stone_appliedenergistics2_quartz_ore" metadata="%metadata%" ratio=".008" mods="appliedenergistics2" /><!-- Certus quartz -->
+				<filler block="undergroundbiomes:%type%_stone_arsmagica2:ores" metadata="%metadata%" ratio=".024" mods="arsmagica2" /><!-- Vinteum -->
+				<filler block="undergroundbiomes:%type%_stone_ebwizardry_crystal_ore" metadata="%metadata%" ratio=".024" mods="ebwizardry" /><!-- Magic Crystal -->
+				<filler block="undergroundbiomes:%type%_stone_evilcraft_dark_ore" metadata="%metadata%" ratio=".016" mods="evilcraft" /><!-- Dark gem -->
+				<filler block="undergroundbiomes:%type%_stone_forestry_resources" metadata="%metadata%" ratio=".036" mods="forestry" /><!-- Apatite -->
+				<filler block="LanteaCraft:blockLanteaOre" metadata="2" ratio=".008" mods="LanteaCraft" /><!-- Trinium -->
+				<filler block="undergroundbiomes:%type%_stone_mekanism_oreblock" metadata="%metadata%" ratio=".004" mods="mekanism" /><!-- Osmium -->
+				<filler block="undergroundbiomes:%type%_stone_metallurgy_manganese_ore"   metadata="%metadata%" ratio=".008" mods="metallurgy" /><!-- Manganese -->
+				<filler block="undergroundbiomes:%type%_stone_metallurgy_prometheum_ore"  metadata="%metadata%" ratio=".020" mods="metallurgy" /><!-- Prometheum -->
+				<filler block="undergroundbiomes:%type%_stone_metallurgy_deep_iron_ore"   metadata="%metadata%" ratio=".012" mods="metallurgy" /><!-- Deep Iron -->
+				<filler block="undergroundbiomes:%type%_stone_metallurgy_infuscolium_ore" metadata="%metadata%" ratio=".012" mods="metallurgy" /><!-- Infuscolium -->
+				<filler block="undergroundbiomes:%type%_stone_metallurgy_oureclase_ore"   metadata="%metadata%" ratio=".008" mods="metallurgy" /><!-- Oureclase -->
+				<filler block="undergroundbiomes:%type%_stone_metallurgy_sulfur_ore"      metadata="%metadata%" ratio=".006" mods="metallurgy" /><!-- Sulfur -->
+				<filler block="undergroundbiomes:%type%_stone_metallurgy_phosphorite_ore" metadata="%metadata%" ratio=".006" mods="metallurgy" /><!-- Phosphorite -->
+				<filler block="undergroundbiomes:%type%_stone_metallurgy_saltpeter_ore"   metadata="%metadata%" ratio=".007" mods="removed,metallurgy" /><!-- Saltpeter (removed in 1.12+, kept for reference ratio) -->
+				<filler block="undergroundbiomes:%type%_stone_metallurgy_magnesium_ore"   metadata="%metadata%" ratio=".006" mods="removed,metallurgy" /><!-- Magnesium (removed in 1.12+, kept for reference ratio) -->
+				<filler block="undergroundbiomes:%type%_stone_metallurgy_bitumen_ore"     metadata="%metadata%" ratio=".006" mods="off,metallurgy" /><!-- Bitumen (replaced with lakes in 1.12+, kept for reference ratio) -->
+				<filler block="undergroundbiomes:%type%_stone_metallurgy_potash_ore"      metadata="%metadata%" ratio=".006" mods="off,metallurgy" /><!-- Potash -->
+				<filler block="undergroundbiomes:%type%_stone_mysticalagriculture_inferium_ore" metadata="%metadata%" ratio=".012" mods="mysticalagriculture" /><!-- Inferium -->
+				
+				<filler block="undergroundbiomes:%type%_stone_tile.thermalfoundation.ore.aluminum.name" metadata="%metadata%" ratio=".032" mods="thermalfoundation" /><!-- Aluminum -->
+				<filler block="undergroundbiomes:%type%_stone_immersiveengineering_ore_1"               metadata="%metadata%" ratio=".032" mods="immersiveengineering,!thermalfoundation" /><!-- Aluminum/Bauxite -->
+				
+				<filler block="undergroundbiomes:%type%_stone_thermalfoundation_ore"     metadata="%metadata%" ratio=".048" mods="thermalfoundation" /><!-- Copper -->
+				<filler block="undergroundbiomes:%type%_stone_immersiveengineering_ore"  metadata="%metadata%" ratio=".048" mods="immersiveengineering,!thermalfoundation" /><!-- Copper -->
+				<filler block="undergroundbiomes:%type%_stone_tile.for.resources.copper" metadata="%metadata%" ratio=".048" mods="mekanism,!thermalfoundation,!immersiveengineering" /><!-- Copper -->
+				<filler block="undergroundbiomes:%type%_stone_ic2.resource.copper_ore"   metadata="%metadata%" ratio=".048" mods="ic2,!thermalfoundation,!immersiveengineering,!mekanism" /><!-- Copper -->
+				<filler block="undergroundbiomes:%type%_stone_nuclearcraft_ore"          metadata="%metadata%" ratio=".048" mods="nuclearcraft,!thermalfoundation,!immersiveengineering,!mekanism,!ic2" /><!-- Copper -->
+				<filler block="undergroundbiomes:%type%_stone_tile.for.resources.copper" metadata="%metadata%" ratio=".048" mods="forestry,!thermalfoundation,!immersiveengineering,!mekanism,!ic2,!nuclearcraft" /><!-- Copper -->
+				<filler block="projectred-exploration:ore"                               metadata="3" ratio=".048" mods="projectred-exploration,!thermalfoundation,!immersiveengineering,!mekanism,!ic2,!nuclearcraft,!forestry" /><!-- Copper -->
+				
+				<filler block="undergroundbiomes:%type%_stone_tile.thermalfoundation.ore.lead.name" metadata="%metadata%" ratio=".024" mods="thermalfoundation" /><!-- Lead -->
+				<filler block="undergroundbiomes:%type%_stone_immersiveengineering_ore_2"           metadata="%metadata%" ratio=".024" mods="immersiveengineering,!thermalfoundation" /><!-- Lead -->
+				<filler block="undergroundbiomes:%type%_stone_ic2.resource.lead_ore"                metadata="%metadata%" ratio=".024" mods="ic2,!thermalfoundation,!immersiveengineering" /><!-- Lead -->
+				<filler block="undergroundbiomes:%type%_stone_tile.nuclearcraft.ore.lead"           metadata="%metadata%" ratio=".024" mods="nuclearcraft,!thermalfoundation,!immersiveengineering,!ic2" /><!-- Lead -->
+				
+				<filler block="undergroundbiomes:%type%_stone_tile.thermalfoundation.ore.tin.name" metadata="%metadata%" ratio=".032" mods="thermalfoundation" /><!-- Tin -->
+				<filler block="undergroundbiomes:%type%_stone_mekanism_oreblock_2"                 metadata="%metadata%" ratio=".032" mods="mekanism,!thermalfoundation" /><!-- Tin -->
+				<filler block="undergroundbiomes:%type%_stone_ic2.resource.tin_ore"                metadata="%metadata%" ratio=".032" mods="ic2,!thermalfoundation,!mekanism" /><!-- Tin -->
+				<filler block="undergroundbiomes:%type%_stone_tile.nuclearcraft.ore.tin"           metadata="%metadata%" ratio=".032" mods="nuclearcraft,!thermalfoundation,!mekanism,!ic2" /><!-- Tin -->
+				<filler block="undergroundbiomes:%type%_stone_tile.for.resources.tin"              metadata="%metadata%" ratio=".032" mods="forestry,!thermalfoundation,!mekanism,!ic2,!nuclearcraft" /><!-- Tin -->
+				<filler block="projectred-exploration:ore"                                         metadata="4" ratio=".032" mods="projectred-exploration,!thermalfoundation,!mekanism,!ic2,!nuclearcraft,!forestry" /><!-- Tin -->
+			</fillerSet>
+
+
+			<!-- uncommon overworld ores with various base blocks -->
+			<fillerSet group="overworld_uncommon" name="%type%@%metadata%.normal" weight="20">
+				<import group="undergroundBiomes_uncommonOres" name="%type%@%metadata%" />
+				<filler block="undergroundbiomes:%type%_stone" metadata="%metadata%" weight="100" />
+			</fillerSet>
+
+			<fillerSet group="undergroundBiomes_uncommonOres" name="%type%@%metadata%">
+				<filler block="undergroundbiomes:%type%_stone_redstone_ore" metadata="%metadata%" ratio=".008" mods="!thermalfoundation" />
+				<filler block="undergroundbiomes:%type%_stone_tile.thermalfoundation.ore.redstone.name" metadata="%metadata%" ratio=".008" />
+				<filler block="undergroundbiomes:%type%_stone_gold_ore" metadata="%metadata%" ratio=".010" />
+				<filler block="undergroundbiomes:%type%_stone_lapis_ore" metadata="%metadata%" ratio=".008" />
+				
+				<filler block="undergroundbiomes:%type%_stone_appliedenergistics2_quartz_ore" metadata="%metadata%" ratio=".010" mods="appliedenergistics2" /><!-- Certus quartz -->
+				<filler block="undergroundbiomes:%type%_stone_appliedenergistics2_charged_quartz_ore" metadata="%metadata%" ratio=".004" mods="appliedenergistics2" /><!-- Charged Certus quartz -->
+				<filler block="undergroundbiomes:%type%_stone_arsmagica2:ores.1" metadata="%metadata%" ratio=".006" mods="arsmagica2" /><!-- Chimerite -->
+				<filler block="undergroundbiomes:%type%_stone_deepresonance_resonating_ore" metadata="%metadata%" ratio=".001" mods="deepresonance" /><!-- Resonating -->
+				<filler block="undergroundbiomes:%type%_stone_mekanism_oreblock" metadata="%metadata%" ratio=".010" mods="mekanism" /><!-- Osmium -->
+				<filler block="undergroundbiomes:%type%_stone_metallurgy_astral_silver_ore"           metadata="%metadata%" ratio=".008" mods="metallurgy" /><!-- Astral Silver -->
+				<filler block="undergroundbiomes:%type%_stone_metallurgy_carmot_ore"                  metadata="%metadata%" ratio=".0064" mods="metallurgy" /><!-- Carmot -->
+				<filler block="undergroundbiomes:%type%_stone_metallurgy_rubracium_ore"               metadata="%metadata%" ratio=".004" mods="metallurgy" /><!-- Rubracium -->
+				<filler block="undergroundbiomes:%type%_stone_metallurgy_zinc_ore"                    metadata="%metadata%" ratio=".015" mods="metallurgy" /><!-- Zinc -->
+				<filler block="undergroundbiomes:%type%_stone_tile.nuclearcraft.ore.thorium"   metadata="%metadata%" ratio=".002" mods="nuclearcraft" /><!-- Thorium -->
+				<filler block="undergroundbiomes:%type%_stone_tile.nuclearcraft.ore.boron"     metadata="%metadata%" ratio=".004" mods="nuclearcraft" /><!-- Boron -->
+				<filler block="undergroundbiomes:%type%_stone_tile.nuclearcraft.ore.lithium"   metadata="%metadata%" ratio=".003" mods="nuclearcraft" /><!-- Lithium -->
+				<filler block="undergroundbiomes:%type%_stone_tile.nuclearcraft.ore.magnesium" metadata="%metadata%" ratio=".006" mods="nuclearcraft" /><!-- Magnesium -->
+				
+				<filler block="undergroundbiomes:%type%_stone_tile.thermalfoundation.ore.lead.name" metadata="%metadata%" ratio=".015" mods="thermalfoundation" /><!-- Lead -->
+				<filler block="undergroundbiomes:%type%_stone_immersiveengineering_ore_2"           metadata="%metadata%" ratio=".015" mods="immersiveengineering,!thermalfoundation" /><!-- Lead -->
+				<filler block="undergroundbiomes:%type%_stone_ic2.resource.lead_ore"                metadata="%metadata%" ratio=".015" mods="ic2,!thermalfoundation,!immersiveengineering" /><!-- Lead -->
+				<filler block="undergroundbiomes:%type%_stone_tile.nuclearcraft.ore.lead"           metadata="%metadata%" ratio=".015" mods="nuclearcraft,!thermalfoundation,!immersiveengineering,!ic2" /><!-- Lead -->
+
+				<filler block="undergroundbiomes:%type%_stone_tile.thermalfoundation.ore.mithril.name" metadata="%metadata%" ratio=".0064" mods="thermalfoundation" /><!-- Mana infused/Mithril -->
+				
+				<filler block="undergroundbiomes:%type%_stone_tile.thermalfoundation.ore.nickel.name" metadata="%metadata%" ratio=".015" mods="thermalfoundation" /><!-- Ferrous/Nickel -->
+				<filler block="undergroundbiomes:%type%_stone_immersiveengineering_ore_4"             metadata="%metadata%" ratio=".015" mods="immersiveengineering,!thermalfoundation" /><!-- Nickel -->
+				
+				<filler block="undergroundbiomes:%type%_stone_tile.thermalfoundation.ore.silver.name" metadata="%metadata%" ratio=".015" mods="thermalfoundation" /><!-- Silver -->
+				<filler block="undergroundbiomes:%type%_stone_immersiveengineering_ore_3"             metadata="%metadata%" ratio=".015" mods="immersiveengineering,!thermalfoundation" /><!-- Silver -->
+				<filler block="projectred-exploration:ore"                                            metadata="5" ratio=".015" mods="projectred-exploration,!thermalfoundation,!immersiveengineering" /><!-- Silver -->
+				
+				<filler block="undergroundbiomes:%type%_stone_material.rutile" metadata="%metadata%" ratio=".008" mods="libvulpes" /><!-- Titanium/Rutile -->
+				<filler block="techguns:basicore"                              metadata="3" ratio=".008" mods="techguns,!libvulpes" /><!-- Titanium -->
+				
+				<filler block="undergroundbiomes:%type%_stone_ic2.resource.uranium_ore"      metadata="%metadata%" ratio=".001" mods="ic2" /><!-- Uranium -->
+				<filler block="undergroundbiomes:%type%_stone_immersiveengineering_ore_5"    metadata="%metadata%" ratio=".001" mods="immersiveengineering,!ic2" /><!-- Uranium -->
+				<filler block="undergroundbiomes:%type%_stone_tile.nuclearcraft.ore.uranium" metadata="%metadata%" ratio=".002" mods="nuclearcraft,!ic2,!immersiveengineering" /><!-- Uranium -->
+				<filler block="undergroundbiomes:%type%_stone_bigreactors_brore"             metadata="%metadata%" ratio=".001" mods="bigreactors,!ic2,!immersiveengineering,!nuclearcraft" /><!-- Uranium/Yellorite -->
+			</fillerSet>
+
+			<!-- rare overworld ores with various base blocks -->
+			<fillerSet group="overworld_rare" name="%type%@%metadata%.normal" weight="20">
+				<import group="undergroundBiomes_rareOres" name="%type%@%metadata%" />
+				<filler block="undergroundbiomes:%type%_stone" metadata="%metadata%" weight="100" />
+			</fillerSet>
+			
+			<fillerSet group="undergroundBiomes_rareGems.%type%@%metadata%" name="emerald" weight="10">
+				<filler block="undergroundbiomes:%type%_stone_emerald_ore" metadata="%metadata%" ratio=".001" />
+			</fillerSet>
+			<fillerSet group="undergroundBiomes_rareGems.%type%@%metadata%" name="ruby" weight="10" mods="biomesoplenty">
+				<filler block="undergroundbiomes:%type%_stone_tile.gem_ore.ruby_ore" metadata="%metadata%" ratio=".001" /><!-- Ruby -->
+			</fillerSet>
+			<fillerSet group="undergroundBiomes_rareGems.%type%@%metadata%" name="peridot" weight="10" mods="biomesoplenty">
+				<filler block="undergroundbiomes:%type%_stone_tile.gem_ore.peridot_ore" metadata="%metadata%" ratio=".001" /><!-- Peridot -->
+			</fillerSet>
+			<fillerSet group="undergroundBiomes_rareGems.%type%@%metadata%" name="topaz" weight="10" mods="biomesoplenty">
+				<filler block="undergroundbiomes:%type%_stone_tile.gem_ore.topaz_ore" metadata="%metadata%" ratio=".001" /><!-- Topaz -->
+			</fillerSet>
+			<fillerSet group="undergroundBiomes_rareGems.%type%@%metadata%" name="tanzanite" weight="10" mods="biomesoplenty">
+				<filler block="undergroundbiomes:%type%_stone_tile.gem_ore.tanzanite_ore" metadata="%metadata%" ratio=".001" /><!-- Tanzanite -->
+			</fillerSet>
+			<fillerSet group="undergroundBiomes_rareGems.%type%@%metadata%" name="malachite" weight="10" mods="biomesoplenty">
+				<filler block="undergroundbiomes:%type%_stone_tile.gem_ore.malachite_ore" metadata="%metadata%" ratio=".001" /><!-- Malachite -->
+			</fillerSet>
+			<fillerSet group="undergroundBiomes_rareGems.%type%@%metadata%" name="sapphire" weight="10" mods="biomesoplenty">
+				<filler block="undergroundbiomes:%type%_stone_tile.gem_ore.sapphire_ore" metadata="%metadata%" ratio=".001" /><!-- Sapphire -->
+			</fillerSet>
+			<fillerSet group="undergroundBiomes_rareGems.%type%@%metadata%" name="amber" weight="10" mods="biomesoplenty">
+				<filler block="undergroundbiomes:%type%_stone_tile.gem_ore.amber_ore" metadata="%metadata%" ratio=".001" /><!-- Amber -->
+			</fillerSet>
+			<fillerSet group="undergroundBiomes_rareGems.%type%@%metadata%" name="none" ratio="0.10"><!-- slight chance of no gems -->
+				<filler block="minecraft:stone" metadata="0" ratio=".00000001" /><!-- negligeable ratio -->
+			</fillerSet>
+			
+			<fillerSet group="undergroundBiomes_rareOres" name="%type%@%metadata%">
+				<filler block="undergroundbiomes:%type%_stone_gold_ore" metadata="%metadata%" ratio=".004" />
+				<filler block="undergroundbiomes:%type%_stone_diamond_ore" metadata="%metadata%" ratio=".004" />
+				<import group="undergroundBiomes_rareGems.%type%@%metadata%" /><!-- add a random gem, don't mix them in the same volume -->
+				
+				<filler block="undergroundbiomes:%type%_stone_appliedenergistics2_charged_quartz_ore" metadata="%metadata%" ratio=".005" mods="appliedenergistics2" /><!-- Charged certus quartz -->
+				<filler block="undergroundbiomes:%type%_arsmagica2:ores.2" metadata="%metadata%" ratio=".008" mods="arsmagica2" /><!-- Blue topaz -->
+				<filler block="undergroundbiomes:%type%_stone_draconicevolution_draconium_ore" metadata="%metadata%" ratio="0.004" mods="off,draconicevolution" /><!-- Draconium -->
+				<filler block="LanteaCraft:blockLanteaOre" metadata="1" ratio=".006" mods="LanteaCraft" /><!-- Naquadriah -->
+				<filler block="undergroundbiomes:%type%_stone_metallurgy_orichalcum_ore"              metadata="%metadata%" ratio=".006" mods="metallurgy" /><!-- Orichalcum -->
+				<filler block="undergroundbiomes:%type%_stone_metallurgy_adamantine_ore"              metadata="%metadata%" ratio=".004" mods="metallurgy" /><!-- Adamantine -->
+				<filler block="undergroundbiomes:%type%_stone_metallurgy_atlarus_ore"                 metadata="%metadata%" ratio=".004" mods="metallurgy" /><!-- Atlarus -->
+				<filler block="undergroundbiomes:%type%_stone_tile.nuclearcraft.ore.thorium"   metadata="%metadata%" ratio=".015" mods="nuclearcraft" /><!-- Thorium -->
+				<filler block="undergroundbiomes:%type%_stone_tile.nuclearcraft.ore.boron"     metadata="%metadata%" ratio=".030" mods="nuclearcraft" /><!-- Boron -->
+				<filler block="undergroundbiomes:%type%_stone_tile.nuclearcraft.ore.lithium"   metadata="%metadata%" ratio=".020" mods="nuclearcraft" /><!-- Lithium -->
+				<filler block="undergroundbiomes:%type%_stone_tile.nuclearcraft.ore.magnesium" metadata="%metadata%" ratio=".030" mods="nuclearcraft" /><!-- Magnesium -->
+				<filler block="undergroundbiomes:%type%_.naquadah" metadata="%metadata%" ratio=".002" mods="StargateTech2" /><!-- Naquadah -->
+				
+				<filler block="thermalfoundation:ore" metadata="5" ratio=".006" mods="thermalfoundation,!undergroundbiomes" /><!-- Shiny/Platinum -->
+				
+				<filler block="libvulpes:ore0"    metadata="8" ratio=".006" mods="libvulpes" /><!-- Titanium/Rutile -->
+				<filler block="techguns:basicore" metadata="3" ratio=".006" mods="techguns,!libvulpes" /><!-- Titanium -->
+				
+				<filler block="undergroundbiomes:%type%_stone_ic2.resource.uranium_ore"      metadata="%metadata%" ratio=".005" mods="ic2" /><!-- Uranium -->
+				<filler block="undergroundbiomes:%type%_stone_immersiveengineering_ore_5"    metadata="%metadata%" ratio=".005" mods="immersiveengineering,!ic2" /><!-- Uranium -->
+				<filler block="undergroundbiomes:%type%_stone_tile.nuclearcraft.ore.uranium" metadata="%metadata%" ratio=".005" mods="nuclearcraft,!ic2,!immersiveengineering" /><!-- Uranium -->
+				<filler block="undergroundbiomes:%type%_stone_bigreactors_brore"             metadata="%metadata%" ratio=".005" mods="bigreactors,!ic2,!immersiveengineering,!nuclearcraft" /><!-- Uranium/Yellorite -->
+			</fillerSet>
+
+			<!-- assorted overworld surface blocks -->
+			<fillerSet group="overworld_surface" name="%type%@%metadata%" weight="5">
+				<filler block="undergroundbiomes:%type%_stone" weight="100" />
+			</fillerSet>
+		</for>
+	</for>
+
+    <!-- corrupted versions (no sedimentary cobblestone) -->
+    <for variable="type" in="igneous,metamorphic">
+        <for variable="metadata" from="0" to="7">
+            <!-- common overworld ores with various base blocks -->
+            <fillerSet group="overworld_common" name="%type%@%metadata%.corrupted" weight="5">
+                <import group="undergroundBiomes_commonOres" name="%type%@%metadata%" />
+                <filler block="undergroundbiomes:%type%_cobble" metadata="%metadata%" weight="100" />
+            </fillerSet>
+
+            <!-- uncommon overworld ores with various base blocks -->
+            <fillerSet group="overworld_uncommon" name="%type%@%metadata%.corrupted" weight="5">
+                <import group="undergroundBiomes_uncommonOres" name="%type%@%metadata%" />
+                <filler block="undergroundbiomes:%type%_cobble" metadata="%metadata%" weight="100" />
+            </fillerSet>
+
+            <!-- rare overworld ores with various base blocks -->
+            <fillerSet group="overworld_rare" name="%type%@%metadata%.corrupted" weight="5">
+                <import group="undergroundBiomes_rareOres" name="%type%@%metadata%" />
+                <filler block="minecraft:obsidian" weight="100" />
+                <filler block="undergroundbiomes:%type%_stone_diamond_ore" metadata="%metadata%" weight="5" />
+                <filler block="minecraft:bedrock" weight="1" />
+            </fillerSet>
+
+            <!-- assorted overworld surface blocks -->
+            <fillerSet group="overworld_surface" name="%type%@%metadata%.corrupted" weight="2">
+                <filler block="undergroundbiomes:%type%_cobble" weight="100" />
+            </fillerSet>
+        </for>
+    </for>
+
+</worldGeneration>

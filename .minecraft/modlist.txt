@@ -1,0 +1,193 @@
+Academy Craft, AcademyCraft-1.1.3.jar
+Advanced TFC Tech, AdvancedTFCTech-0.1.3.jar
+AntiGhost, antighost-1.12-forge14.21.1.2387-1.1.1.jar
+Apotheosis, Apotheosis-1.12.2-1.12.5.jar
+Applied Energistics 2, appliedenergistics2-rv6-stable-7.jar
+Astral Sorcery, astralsorcery-1.12.2-1.10.27.jar
+Athenaeum, athenaeum-1.12.2-1.19.2.jar
+Attribute Fix, AttributeFix-1.12.2-1.0.4.jar
+AutoRegLib, AutoRegLib-1.3-32.jar
+Baubles, Baubles-1.12-1.5.2.jar
+Better Advancements, BetterAdvancements-1.12.2-0.1.0.77.jar
+Better Records, BetterRecords-1.12.2-1.6.2.jar
+Better With Lib, BetterWithLib-1.12-1.5.jar
+Better With Mods, BetterWithMods-1.12-2.3.23.jar
+Bewitchment, bewitchment-1.12.2-0.0.22.42.jar
+Blood Magic: Alchemical Wizardry, BloodMagic-1.12.2-2.4.3-105.jar
+Bookshelf, Bookshelf-1.12.2-2.3.590.jar
+Botania, Botania+r1.10-357.jar
+Brandon's Core, BrandonsCore-1.12.2-2.4.19.214-universal.jar
+CC: Tweaked, cc-tweaked-1.12.2-1.89.2.jar
+CTM, CTM-MC1.12.2-1.0.2.31.jar
+Caliper, Caliper-1.12.2-1.1.46.jar
+Calm Down Zombie Guy, CalmDownZombieGuy-1.12.2-1.0.0.jar
+Chisel, Chisel-MC1.12.2-1.0.2.45.jar
+Cloche Call, ClocheCall-1.1.2.jar
+Clumps, Clumps-3.1.2.jar
+CoFH Core, CoFHCore-1.12.2-4.6.6.1-universal.jar
+CoFH World, CoFHWorld-1.12.2-1.4.0.1-universal.jar
+CodeChicken Lib, CodeChickenLib-1.12.2-3.2.3.358-universal.jar
+CommonCapabilities, CommonCapabilities-1.12.2-2.4.8.jar
+Controlling, Controlling-3.0.10.jar
+CraftPresence, CraftPresence-Forge-1.12.2-Beta-1.7.5.jar
+CraftTweaker2, CraftTweaker2-1.12-4.1.20.602.jar
+CreativeCore, CreativeCore_v1.10.33_mc1.12.2.jar
+Cuisine, Cuisine-0.5.22-build929.jar
+Culinary Construct, culinaryconstruct-1.3.4.jar
+Cyclops Core, CyclopsCore-1.12.2-1.6.6.jar
+Deep Mob Learning, deepmoblearning-1.12.2-2.5.4-universal.jar
+Deep Mob Learning - Blood Magic Addon, deepmoblearningbm-1.12.2-1.0.1-universal.jar
+Ding, Ding-1.12.2-1.0.2.jar
+Doomlike Dungeons, DoomlikeDungeons-1.13.2-MC1.12.2.jar
+Draconic Evolution, Draconic-Evolution-1.12.2-2.3.27.353-universal.jar
+Dropt, dropt-1.12.2-1.18.0.jar
+DupeFix Project, DupeFixProject-1.12.2-3.0.4.jar
+Dupeless Cloth, dupelesscloth-1.0.jar
+Dynamistics, dynamistics-1.0.2.jar
+Electroblob's Wizardry, ElectroblobsWizardry-4.3-MC1.12.2.jar
+Emerging Technology, EmergingTechnology-1.12.2-1.3.25.jar
+Emojiful, emojiful-1.0.3.jar
+Ender IO, EnderIO-1.12.2-5.2.61.jar
+Ender IO Applied Energistics Conduits, EnderIO-1.12.2-5.2.61.jar
+Ender IO Base, EnderIO-1.12.2-5.2.61.jar
+Ender IO Conduits, EnderIO-1.12.2-5.2.61.jar
+Ender IO Integration with Forestry, EnderIO-1.12.2-5.2.61.jar
+Ender IO Integration with Tinkers' Construct, EnderIO-1.12.2-5.2.61.jar
+Ender IO Machines, EnderIO-1.12.2-5.2.61.jar
+Ender IO Open Computers Conduits, EnderIO-1.12.2-5.2.61.jar
+Ender IO Powertools, EnderIO-1.12.2-5.2.61.jar
+Ender IO Refined Storage Conduits, EnderIO-1.12.2-5.2.61.jar
+Ender IO endergy, EnderIO-endergy-1.12.2-5.2.61.jar
+EnderCore, EnderCore-1.12.2-0.5.76.jar
+EnderTweaker, EnderTweaker-1.12.2-1.2.0.jar
+Exchangers, Exchangers-1.12.2-2.7.3.jar
+FTB Library, FTBLib-5.4.7.2.jar
+FTB Quests, FTBQuests-1202.9.0.13.jar
+FTB Utilities, FTBUtilities-5.4.1.130.jar
+FastFurnace, FastFurnace-1.12.2-1.2.0.jar
+FastWorkbench, FastWorkbench-1.12.2-1.6.0.jar
+Flux Networks, fluxnetworks-1.12.2-4.0.15-32.jar
+FoamFix, foamfix-0.10.10-1.12.2.jar
+Forestry, forestry_1.12.2-5.8.2.371.jar
+Forge Microblocks, ForgeMultipart-1.12.2-2.6.2.83-universal.jar
+Forge Multipart CBE, ForgeMultipart-1.12.2-2.6.2.83-universal.jar
+Future MC, future-mc-1.12.2-0.2.4.1.jar
+Game Stages, GameStages-1.12.2-2.0.123.jar
+Glacidus, Glacidus-1.12.2-v1.2.1.jar
+Gravisuit Classic, gravisuit-1.0.8.3.jar
+GregTech Community Edition, gregtech-1.12.2-1.10.3.jar
+Grimoire of Gaia 3, GrimoireOfGaia3-1.12.2-1.7.2.jar
+Guide-API, Guide-API-1.12-2.1.8-63.jar
+HeatAndClimateLib, HeatAndClimateLib_1.12.2-3.4.2.jar
+HeatAndClimateMod, HeatAndClimateMod_1.12.2-3.4.3.jar
+Ido - 1.12 movement enhancement, ido-1.12.2-1.1.0.jar
+Immersive Engineering, ImmersiveEngineering-0.12-98.jar
+Immersive Petroleum, immersivepetroleum-1.12.2-1.1.9.jar
+Immersive Technology, MCTImmersiveTechnology-1.12.2-1.8.87.jar
+Integrated Dynamics, IntegratedDynamics-1.12.2-1.1.10.jar
+Integrated NBT, integratednbt-1.12.2-1.2.1.jar
+Integrated Terminals, IntegratedTerminals-1.12.2-1.0.14.jar
+Integrated Tunnels, IntegratedTunnels-1.12.2-1.6.13.jar
+Inventory Tweaks, InventoryTweaks-1.64+dev.151.jar
+InvisibLights, invisiblights-3.2-10.jar
+It's the little things, itlt-1.12.2-1.0.2.jar
+Item Filters, ItemFilters-1.0.4.2.jar
+JEI Integration, jeiintegration_1.12.2-1.6.0.jar
+Jade, Jade-0.1.0.jar
+Just Enough Dimensions, justenoughdimensions-1.12.2-1.6.0-dev.20200416.184714.jar
+Just Enough Energistics, JustEnoughEnergistics-1.12.2-1.0.8.jar
+Just Enough Items, jei_1.12.2-4.16.1.jar
+Just Enough Petroleum, JustEnoughPetroleum-0.1.jar
+Just Enough Throwing In Fluids, jetif-1.12.2-1.5.2.jar
+JustEnoughIDs, JustEnoughIDs-1.0.3-55.jar
+Kiwi, Kiwi-1.12.2-0.5.3.32.jar
+Knowledge Share, knowledgeshare-1.1.jar
+LibrarianLib, librarianlib-1.12.2-4.22.jar
+LittleTiles, LittleTiles_v1.5.0-pre199_71_mc1.12.2.jar
+Loli Library, lolilib-1.0.jar
+MAGE, MAGE-0.2.4.jar
+MTLib, MTLib-3.0.6.jar
+Magneticraft, Magneticraft_1.12-2.8.3-dev.jar
+Metallurgy 4: Reforged, Metallurgy-4-Reforged-1.2.0-alpha.1.jar
+Midnight, themidnight-0.3.5.jar
+Minecoprocessors, minecoprocessors-1.12.2-5.jar
+Minecraft Multipart Plugin, ForgeMultipart-1.12.2-2.6.2.83-universal.jar
+Mod Name Tooltip, modnametooltip_1.12.2-1.10.1.jar
+Mod Tweaker, modtweaker-4.0.18.jar
+ModelLoader, modelloader-1.1.7.jar
+MoreOverlays, moreoverlays-1.15.1-mc1.12.2.jar
+Mouse Tweaks, MouseTweaks-2.10-mc1.12.2.jar
+Mysterious Mountain Lib, MMLib-2.1.0.jar
+Mystical Lib, mysticallib-1.12.2-1.9.0.jar
+Mystical World, mysticalworld-1.12.2-1.9.2.jar
+NetherPortalFix, NetherPortalFix_1.12.1-5.3.17.jar
+NuclearCraft, NuclearCraft-2o.4.7-1.12.2.jar
+OnlinePictureFrame, OnlinePicFrame_v1.5.0-pre1_mc1.12.2.jar
+OpenComputers, OpenComputers-MC1.12.2-1.7.5.192.jar
+PMR, PerspectiveModRedux-1.12.2-0.0.5.jar
+Patchouli, Patchouli-1.0-21.jar
+Paths, paths-1.6.1.jar
+Performant Mod, performant-1.12.2-1.10.jar
+Phosphor Lighting Engine, phosphor-forge-mc1.12.2-0.2.7-universal.jar
+Placebo, Placebo-1.12.2-1.6.0.jar
+Plethora, plethora-1.12.2-1.2.3.jar
+Plethora Core, plethora-1.12.2-1.2.3.jar
+Plonk, plonk-1.12.2-5.0.3.jar
+PrimalCore, PrimalCore-1.12.2-0.6.105.jar
+PrimalTerra, primalterra-0.1.jar
+Progressive Bosses, ProgressiveBosses-1.5.4-mc1.12.x.jar
+ProjectE, ProjectE-1.12.2-PE1.4.1.jar
+Psi, Psi-r1.1-78.2.jar
+Pyralfish Mod, AdvancedTFCTech-0.1.3.jar
+Pyrotech, pyrotech-1.12.2-1.5.0.jar
+Quark, Quark-r1.6-179.jar
+RLTweaker, RLTweaker-1.12.2-0.4.1.jar
+Railcraft, railcraft-12.0.0.jar
+Random Things, RandomThings-MC1.12.2-4.2.7.4.jar
+RandomPatches, randompatches-1.12.2-1.22.1.3.jar
+RandomTweaks, randomtweaks-1.12.2-2.8.2.0.jar
+ReAuth, reauth-3.6.0.jar
+Redpill, redpill-1.0.jar
+Redstone Arsenal, RedstoneArsenal-1.12.2-2.6.6.1-universal.jar
+Redstone Flux, RedstoneFlux-1.12-2.1.1.1-universal.jar
+Redstone Repository, RedstoneRepository-1.12.2-1.4.0-dev-universal.jar
+Reliquary, Reliquary-1.12.2-1.3.4.796.jar
+Resource Loader, ResourceLoader-MC1.12.1-1.5.3.jar
+Roots, Roots-1.12.2-3.0.32.jar
+Rustic, rustic-1.1.7.jar
+Rustic Thaumaturgy, Rustic+Thaumaturgy-4.4a.jar
+Sakura, Sakura-1.0.3.4-1.12.2.jar
+Shadowfacts' Forgelin, Forgelin-1.8.4.jar
+Surge, Surge-1.12.2-2.0.79.jar
+TFC Aged Drinks, TFCAgedDrinks-1.0.4.jar
+TFC Metallum, TFC-Metallum-MC1.12.2-1.4.0.jar
+TFC Storage, TFCStorage-1.0.6.jar
+TeaStory, TeaStory-3.3.3-B33.418-1.12.2.jar
+TerraFirmaCraft, TerraFirmaCraft-MC1.12.2-1.7.9.167.jar
+TerraFirmaThings, terrafirmathings-1.2.4.jar
+Thaumcrafft Inventory Scanning, ThaumicInventoryScanning_1.12.2-2.0.10.jar
+Thaumcraft, Thaumcraft-1.12.2-6.1.BETA26.jar
+Thaumic Energistics, thaumicenergistics-2.1.0.jar
+Thaumic Equivalence, ThaumicEquivalence-1.12.2-1.0.5.jar
+Thaumic Speedup, thaumicspeedup-2.0.jar
+The Aurorian, theaurorian-1.12.2-release-oct0720.jar
+The Betweenlands, TheBetweenlands-3.7.1-universal.jar
+The Twilight Forest, twilightforest-1.12.2-3.11.1021-universal.jar
+The Weirding Gadget, weirdinggadget-1.12.2-2.1.16-universal.jar
+Thermal Expansion, ThermalExpansion-1.12.2-5.5.7.1-universal.jar
+Thermal Foundation, ThermalFoundation-1.12.2-2.6.7.1-universal.jar
+Thermal Innovation, ThermalInnovation-1.12.2-0.3.6.1-universal.jar
+Time4TFC, Time4TFC-MC1.12.2-1.0.3.jar
+Totemic, Totemic-1.12.2-0.11.6.jar
+Touhou Little Maid, touhoulittlemaid-1.12.2-1.2.3-release.jar
+VanillaFix, VanillaFix-1.0.10-150.jar
+Waila, Hwyla-1.8.26-B41_1.12.2.jar
+Waila Harvestability, WailaHarvestability-mc1.12-1.1.12.jar
+WarpDrive, WarpDrive-1.12.2-1.5.19.jar
+What Are We Looking At, Wawla-1.12.2-2.6.275.jar
+WirelessRedstone-CBE, WR-CBE-1.12.2-2.3.2.33-universal.jar
+Wizardry, wizardry-0.11.1.jar
+Xaero's Minimap, Xaeros_Minimap_20.24.0_Forge_1.12.jar
+Xaero's World Map, XaerosWorldMap_1.11.0_Forge_1.12.jar
+YUNG's Better Caves, bettercaves-1.12.2-2.0.4.jar
+YUNG's Better Mineshafts, BetterMineshaftsForge-1.12.2-2.1.1.jar

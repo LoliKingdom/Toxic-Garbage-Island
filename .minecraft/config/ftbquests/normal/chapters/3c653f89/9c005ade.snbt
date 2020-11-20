@@ -1,0 +1,43 @@
+{
+	title: "Knife",
+	x: -2.5d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "Master, you should craft a knife next.",
+	text: [
+		"You: ",
+		"Oh ALICE, you're still here after all those years... Are you at least one bit smarter now?",
+		"",
+		"ALICE: ",
+		"Master. I am the same as I was the last time you saw me. I have been offline since the Year 2000. It seems like there had only been 21 years since the Great Incident had occurred.",
+		"",
+		"Here is another knife for you Master. Do use it."
+	],
+	dependencies: [
+		"bad88f43"
+	],
+	tasks: [{
+		uid: "746dcf1e",
+		type: "item",
+		title: "Rock Knife",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "knifeStone",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "932c5548",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tfc:stone/knife/igneous_intrusive"
+		}
+	}]
+}

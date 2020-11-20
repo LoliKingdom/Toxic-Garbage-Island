@@ -1,0 +1,62 @@
+{
+ "minecraft:polar_bear": {
+  "heat": 1.0,
+  "cold": 8.0
+ },
+ "minecraft:villager_golem": {
+  "heat": 4.0,
+  "cold": 8.0
+ },
+ "minecraft:pig": {
+  "heat": 4.0,
+  "cold": 2.0
+ },
+ "minecraft:llama": {
+  "heat": 2.0,
+  "cold": 6.0
+ },
+ "minecraft:sheep": {
+  "heat": 2.0,
+  "cold": 4.0
+ },
+ "minecraft:ender_dragon": {
+  "heat": 2.0,
+  "cold": 8.0
+ },
+ "minecraft:shulker": {
+  "heat": 0.0,
+  "cold": 8.0
+ },
+ "minecraft:villager": {
+  "heat": 3.0,
+  "cold": 4.0
+ },
+ "minecraft:cow": {
+  "heat": 3.0,
+  "cold": 3.0
+ },
+ "minecraft:enderman": {
+  "heat": 8.0,
+  "cold": 8.0
+ },
+ "minecraft:snowman": {
+  "heat": 0.0,
+  "cold": 8.0
+ },
+ "minecraft:chicken": {
+  "heat": 4.0,
+  "cold": 2.0
+ },
+ "minecraft:wolf": {
+  "heat": 2.0,
+  "cold": 4.0
+ },
+ "minecraft:wither": {
+  "heat": 8.0,
+  "cold": 2.0
+ },
+ "minecraft:rabbit": {
+  "heat": 2.0,
+  "cold": 4.0
+ }
+}

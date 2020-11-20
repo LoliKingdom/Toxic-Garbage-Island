@@ -1,0 +1,39 @@
+{
+	title: "Off the Ground - Sticks",
+	icon: {
+		ForgeCaps: {
+			"tfc:item_size": {
+				heat: 0.0f,
+				ticks: -1L
+			}
+		},
+		id: "minecraft:stick"
+	},
+	x: -7.0d,
+	y: 2.0d,
+	text: [
+		"Well, at least we still have vegetation. ",
+		"",
+		"Actually, it seems like this place had been totally rejuvenated instead..."
+	],
+	dependencies: [
+		"369f24bd"
+	],
+	tasks: [{
+		uid: "a4fa6c0f",
+		type: "item",
+		title: "16x Sticks",
+		items: [{
+			ForgeCaps: {
+				"tfc:item_size": {
+					heat: 0.0f,
+					ticks: -1L
+				}
+			},
+			id: "minecraft:stick"
+		}],
+		count: 16L,
+		consume_items: false,
+		only_from_crafting: false
+	}]
+}
