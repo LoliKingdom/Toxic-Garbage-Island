@@ -1,3 +1,5 @@
+natives
+
 .minecraft/.*
 .minecraft/acmedia
 .minecraft/asm
