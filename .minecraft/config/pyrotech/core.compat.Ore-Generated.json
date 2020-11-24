@@ -32,7 +32,6 @@
         "immersiveengineering:metal:21",
         "magneticraft:nuggets:7",
         "primal:aluminum_nugget:0",
-        "tfc:metal/nugget/aluminium:0",
         "thermalfoundation:material:196"
       ]
     },
@@ -48,8 +47,7 @@
       ],
       "output": [
         "gregtech:meta_item_1:9017",
-        "magneticraft:nuggets:4",
-        "tfc:metal/nugget/cobalt:0"
+        "magneticraft:nuggets:4"
       ]
     },
     "oreCopper": {
@@ -171,7 +169,6 @@
       "output": [
         "magneticraft:nuggets:9",
         "metallurgy:mithril_nugget:0",
-        "tfc:metal/nugget/mithril:0",
         "thermalfoundation:material:200"
       ]
     },
@@ -221,8 +218,7 @@
       "output": [
         "gregtech:meta_item_1:9047",
         "magneticraft:nuggets:11",
-        "metallurgy:osmium_nugget:0",
-        "tfc:metal/nugget/osmium:0"
+        "metallurgy:osmium_nugget:0"
       ]
     },
     "orePlatinum": {
@@ -325,8 +321,7 @@
       ],
       "output": [
         "gregtech:meta_item_1:9075",
-        "immersiveengineering:metal:25",
-        "tfc:metal/nugget/uranium:0"
+        "immersiveengineering:metal:25"
       ]
     }
   }

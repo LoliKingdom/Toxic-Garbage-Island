@@ -5,7 +5,7 @@ fov:0.5
 gamma:1.0
 saturation:0.0
 renderDistance:8
-guiScale:3
+guiScale:2
 particles:2
 bobView:true
 anaglyph3d:false
@@ -95,7 +95,6 @@ key_Hub Expand Key:45
 key_Toggle Key:47
 key_keybind.baublesinventory:48
 key_keybind.railcraft.cart.bed:208
-key_quark.keybind.lockBuilding:37
 key_quark.keybind.dropoff:0
 key_quark.keybind.chestSort:0
 key_quark.keybind.chestDropoff:0
@@ -103,18 +102,19 @@ key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
 key_quark.keybind.toggleAutojump:48
+key_quark.keybind.lockBuilding:37
 key_bloodmagic.keybind.open_holding:35
 key_bloodmagic.keybind.cycle_holding_pos:13:SHIFT
 key_bloodmagic.keybind.cycle_holding_neg:12:SHIFT
 key_roots.keybinds.pouch:0
 key_roots.keybinds.quiver:0
-key_roots.keybinds.spell_slot_2:0
-key_roots.keybinds.spell_slot_1:0
 key_roots.keybinds.spell_slot_previous:0
-key_roots.keybinds.spell_slot_5:0
-key_roots.keybinds.spell_slot_4:0
-key_roots.keybinds.spell_slot_3:0
 key_roots.keybinds.spell_slot_next:0
+key_roots.keybinds.spell_slot_3:0
+key_roots.keybinds.spell_slot_2:0
+key_roots.keybinds.spell_slot_4:0
+key_roots.keybinds.spell_slot_1:0
+key_roots.keybinds.spell_slot_5:0
 key_key.ebwizardry.next_spell:49
 key_key.ebwizardry.previous_spell:48
 key_key.ebwizardry.spell_1:2:ALT
@@ -130,13 +130,11 @@ key_key.exchanger_force_drop_items:52
 key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:211
 key_pe.key.armor_toggle:45
-key_pe.key.charge:47
+key_pe.key.charge:47:CONTROL
 key_pe.key.extra_function:46
 key_pe.key.fire_projectile:19
 key_pe.key.mode:34
 key_key.ftbquests.quests:0
-key_key.moreoverlays.lightoverlay.desc:65
-key_key.moreoverlays.chunkbounds.desc:67
 key_psimisc.keybind:46
 key_key.toggleFoVChanges:51:SHIFT
 key_key.reloadSoundSystem:66:SHIFT
@@ -145,6 +143,7 @@ key_key.togglePotionParticles:66:CONTROL
 key_key.pearl_swapping.desc:46
 key_key.dismount:42
 key_key.narrator:48:CONTROL
+key_Toggle Perspective:62
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0
@@ -179,13 +178,11 @@ key_key.cycleDigAOE:0
 key_key.cycleAttackAOE:0
 key_key.toggleShields:0
 key_nei.options.keys.gui.botania_corporea_request:46
-key_Reputation GUI:62
 key_key.radial_menu:46
 key_key.use_ring:19
 key_key.use_secondary_ring:0
 key_key.open_pouch:34
 key_key.connect_caving_rope:47
-key_cyberware.keybinds.menu:19
 key_key.clipboardPaste:210
 key_key.integrateddynamics.logic_programmer_focus_search:33:ALT
 key_key.integrateddynamics.logic_programmer_open_rename:19:ALT
@@ -253,7 +250,7 @@ key_enderio.keybind.fovplus:0
 key_enderio.keybind.fovminus:0
 key_enderio.keybind.fovplusfast:0
 key_enderio.keybind.fovminusfast:0
-soundCategory_master:0.6971831
+soundCategory_master:0.307947
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

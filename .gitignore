@@ -30,3 +30,24 @@ natives
 .minecraft/*.json
 
 .minecraft/**.log
+.minecraft/BotaniaVars.dat
+
+.minecraft/config/AppliedEnergistics2/CustomRecipes.cfg
+
+.minecraft/config/AppliedEnergistics2/items.csv
+
+.minecraft/config/AppliedEnergistics2/VersionChecker.cfg
+
+.minecraft/config/craftpresence.properties
+
+.minecraft/config/jei/worldSettings.cfg
+
+.minecraft/config/jei/bookmarks.ini
+
+.minecraft/config/splash.properties
+
+.minecraft/config/InvTweaks/InvTweaks.cfg
+
+.minecraft/local/client/rtdata.json
+
+instance.cfg

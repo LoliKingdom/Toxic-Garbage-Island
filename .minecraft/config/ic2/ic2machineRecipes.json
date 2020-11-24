@@ -1949,7 +1949,16 @@
   "item.thermalfoundation.material.dustElectrum_-17827969": true,
   "item.itemDustBronze_-1240444313": true,
   "item.tfc.metal.dust.brass_-1659947684": true,
-  "item.railcraft.dust.void_-126709305": true
+  "item.railcraft.dust.void_-126709305": true,
+  "item.magneticraft.dusts_cobalt_-1013941721": true,
+  "item.metallurgy.osmium_dust_-1598842522": true,
+  "item.metallurgy.osmium_dust_-948360341": true,
+  "item.magneticraft.dusts_cobalt_-1664423902": true,
+  "item.magneticraft.dusts_tungsten_1156729552": true,
+  "item.magneticraft.dusts_tungsten_-795119723": true,
+  "item.meta_item_43189683": true,
+  "item.meta_item_-417485215": true,
+  "item.meta_item_-1585516674": true
  },
  "extractor": {
   "item.coal_764578481": true,
