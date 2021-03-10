@@ -1,14 +1,14 @@
 # Modpack for Minecraft 1.12.2
 
-Progression pack inspired by previous expert packs and GregTech.
+Modpack inspired by previous expert packs, GregTech and various pieces of Japanese literature.
 
 https://discord.gg/HeAmNKD <<< our discord!
 
-Mods List: Check Github or https://www.modlister.com/user/Rongmario for a constantly updated list.
+Mods List: Check .minecraft/modlist.txt (generated with cunny.py)
 
 Launchers: Curse + Technic + ATLauncher (try to support all, but mainly pull from github repo for easier updates)
 
-Created by Rongmario, with help from our Discord community, GregTech and Cubic Chunks Community on a whole!
+Created by Rongmario, with help from our Discord community.
 
 ## Pack Background:
 
@@ -16,11 +16,7 @@ This is an update to a pack I have been making since Minecraft 1.2.5, but since 
 
 ***Plastic form dead things, it is now so clear! How could I fail to understand!***
 
-From Toxic Garbage Island to <b>Toxic<sup>∞</sup></b>
-
-This name originated from the mod 'Cubic Chunks' of its sheer possibility of stretching Minecraft to be workable above the block limits!
-
-We had versions on 1.2.5, 1.4.7, 1.6.4 and 1.7.10. We want to keep the tradition going, and we even decided to create a public pack for all's enjoyment - along with our original community with a paid official server we maintain everyday. Thus, this pack will be the most polished I would have ever put out under the branding of Toxic Garbage Island; no longer a kitchen sink but a polish modpack with crazy elements along with originality and experimentality.
+We had versions on 1.2.5, 1.4.7, 1.6.4 and 1.7.10. We want to keep the tradition going, and we even decided to create a public pack for all's enjoyment - along with our original community with a paid official server we maintain everyday. Thus, this pack will be the most polished I would have ever put out under the branding of Toxic Garbage Island; **no longer a kitchen sink but a polish modpack with crazy elements along with originality and experimentality.**
 
 ## Pack Description:
 
@@ -28,7 +24,7 @@ Abundant early game, with an engaging mid game to an ever so rich end game.
 
 However... that's not it, more is to be revealed throughout the modpack for you, there are recommended pathways to take, but if you take alternatives routes with lesser known mods; you may just be rewarded for your efforts. 
 
-I will be documenting this with a general outline of the progression curve when the modpack is near completion, check back every other day!
+With lore to explore, there will be multiple parts to this spanning different minecraft versions. Starting 1.12.2.
 
 ### CLIENT MODS COMPATIBILITY WITH THE MODPACK:
 
