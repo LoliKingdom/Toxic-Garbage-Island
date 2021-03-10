@@ -2,7 +2,7 @@
 
 Modpack inspired by previous expert packs, GregTech and various pieces of Japanese literature.
 
-https://discord.gg/HeAmNKD <<< our discord!
+https://discord.gg/WpXyEQBayJ <<< our discord!
 
 Mods List: Check .minecraft/modlist.txt (generated with cunny.py)
 
