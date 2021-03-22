@@ -29,3 +29,4 @@ QOL MODS RECOMMENDATION: https://www.reddit.com/r/feedthebeast/comments/aqnz33/m
 14. Shoulder Surfing = https://www.curseforge.com/minecraft/mc-mods/shoulder-surfing-reloaded
 15. Better Placement = https://www.curseforge.com/minecraft/mc-mods/better-placement
 16. Perspective Mod Redux = https://www.curseforge.com/minecraft/mc-mods/perspective-mod-redux/
+17. Fogger = https://www.curseforge.com/minecraft/mc-mods/fogger/
